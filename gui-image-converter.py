@@ -44,7 +44,6 @@ def process_file(filename, input_folder, output_folder, output_format):
         return None
 
 def batch_convert_image_format(input_folder, output_folder, output_format):
-    os.makedirs(input_folder, exist_ok=True)
     os.makedirs(output_folder, exist_ok=True)
 
     valid_extensions = [".jpg", ".jpeg", ".png", ".bmp", ".tiff", ".gif", ".webp"]
